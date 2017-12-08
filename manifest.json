@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Amazon Video SpeedController",
+	"version": "0.1",
+	"description" : "Amazon Video SpeedController(avs)",
+	"browser_action" : {
+		"default_icon" : "images/icon19.png",
+		"default_title" : "自作試し",
+		"default_popup" : "popup.html"
+	},
+	"content_scripts": [ {
+		"all_frames": true,
+		"css": [ "avs.css" ],
+		"js": [ "avs.js" ],
+		"matches": [ "http://www.amazon.co.jp/*", "https://www.amazon.co.jp/*"]
+	 } ]
+}

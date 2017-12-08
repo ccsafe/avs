@@ -1,0 +1,39 @@
+
+.avsTop{
+    position: relative;
+}
+
+
+.avsShow{
+    font-size: 12pt;
+    vertical-align: middle;
+}
+
+.avsMain{
+
+    background-color: aqua;
+    /* padding-top: 30px; */
+    width: 150px;
+    text-align: center;
+
+
+    position: absolute;
+    top:60px;
+
+    /* 上向き矢印 あきらめる */
+    /* border: 30px solid transparent;
+    border-bottom-color:aqua;
+    border-top-width: 0;
+    width: 0; */
+
+}
+
+.avsMainController{
+    font-size: 24px;
+    width: 30px;
+    display: inline-block;
+}
+
+.avsDisplayNone{
+    display: none;
+}
